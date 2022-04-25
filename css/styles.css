@@ -93,3 +93,41 @@ a{
     }
     
 }
+
+/* badges*/
+
+.badge {
+    border-radius: 20px;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    font-weight: 600;
+    white-space: nowrap;
+    font-size: 2rem;
+
+}
+
+.badge--primary{
+    color: #fff;
+    background-color: var(--color-primary)
+}
+
+.badge--secondary{
+    color: #fff;
+    background-color: var(--color-secondary);
+}
+
+.badge--small{
+    font-size: 1.6rem;
+}
+
+@media screen and (min-width:1020px) {
+
+    .badge{
+        font-size: 1.5rem;
+    }
+
+    .badge--small{
+        font-size: 1.2rem;
+    }
+    
+}
