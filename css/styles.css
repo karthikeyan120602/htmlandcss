@@ -882,6 +882,7 @@ a{
 
 .footer{
     background: #232323;
+    padding-top: 10rem;
 }
 
 
@@ -986,6 +987,12 @@ a{
 
     
 }
+
+/* Sign-up Callout */
+.callout-signup {
+    transform: translateY(12rem);
+ }
+  
 
 
 
