@@ -14,7 +14,6 @@
     <meta property="og:type" content="Website..." />
     <meta property="og:image" content="https://www.google.com/" />
     <meta property="og:url" content="https://moshified.com/" />
-    <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/styles.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -27,7 +26,7 @@
   <body>
     <header>
       <nav class="nav collapsible">
-        <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
+        <a aria-label="Cloud" class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
         <svg class="icon icon--white nav__toggler">
           <use :href="/images/sprite.svg#menu"></use>
         </svg>
@@ -71,14 +70,14 @@
       </header>
       <div class="input-group">
         <input
+          aria-label="Domain"
           type="text"
           class="input"
           placeholder="Enter name domain here..."
         />
         <button class="btn btn--accent">
           <svg class="icon icon--white">
-            <use :href="/images/sprite.svg#search"></use></svg
-          >Search
+            <use :href="/images/sprite.svg#search"></use></svg>Search
         </button>
       </div>
 
